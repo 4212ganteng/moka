@@ -13,6 +13,8 @@ const Home = () => {
     return number.toLocaleString("id-ID");
   };
 
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <div className="container mx-auto px-10 md:px-20 bg-svg bg-gradient-to-br from-blue-700 to-blue-400 min-h-screen">
@@ -26,7 +28,7 @@ const Home = () => {
               <span className="text-yellow-400">Digitalisasi</span> usaha Anda
             </h2>
             <p className="max-w-xl  text-base md:text-lg">
-              Tahun 2021 sangat WAJIB membangun
+              Tahun {currentYear} sangat WAJIB membangun
               <span className="font-bold"> Asset Digital</span> seperti
               Template, Software, List Building, Produk Whitelabel & PLR. untuk
               menunjang
