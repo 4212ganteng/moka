@@ -70,7 +70,7 @@ const Home = () => {
           </div>
           <div className="text-center md:text-start text-base text-stone-500 max-w-xl md:ml-7 mt-20 order-1 sm:order-2">
             <h3 className="md:font-semibold text-md md:text-xl  ">
-              PROFIL SINGKAT MEWLANET
+              PROFIL SINGKAT KAMI
             </h3>
             <h2 className="mb-[45px] text-2xl md:text-5xl font-bold text-blue-500">
               Kami Membantu <br />
