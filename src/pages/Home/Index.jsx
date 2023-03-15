@@ -8,12 +8,25 @@ import { Link } from "react-router-dom";
 import { Card } from "../../fakeApi/Card";
 import { product } from "../../fakeApi/Product";
 import footerBG from "../../assets/image/prod5.png";
+import Typewriter from "typewriter-effect";
 const Home = () => {
   const cvRupiah = (number) => {
     return number.toLocaleString("id-ID");
   };
 
   const currentYear = new Date().getFullYear();
+
+  const typewiter = () => {
+    return (
+      <Typewriter
+        options={{
+          strings: ["Digitalisasi", "Optimasi"],
+          autoStart: true,
+          loop: true,
+        }}
+      />
+    );
+  };
 
   return (
     <>
@@ -25,7 +38,7 @@ const Home = () => {
             </h3>
             <h2 className="mb-[45px] text-4xl md:text-5xl font-bold">
               Kami siap bantu <br />
-              <span className="text-yellow-400">Digitalisasi</span> usaha Anda
+              <span className="text-yellow-400">{typewiter()}</span> usaha Anda
             </h2>
             <p className="max-w-xl  text-base md:text-lg">
               Tahun {currentYear} sangat WAJIB membangun
