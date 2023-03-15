@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.bg-svg {
+  background-image: url("../src/assets/image/wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-svg2 {
+  background-image: url("../src/assets/image/footer.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-sect {
+  background-image: url("../src/assets/image/BG-home2.png");
+  background-position: 45% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
