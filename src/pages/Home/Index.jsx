@@ -191,7 +191,7 @@ const Home = () => {
             <div className="mt-[42px]">
               <button className="flex items-center rounded-full bg-cyan-400 py-2 px-5 mb-5">
                 <p className="mr-3 text-base font-bold">
-                  INFO LENGKAP PAKET USAHA INI
+                  INFO LENGKAP PAKET USAHA
                 </p>
                 <FaArrowRight />
               </button>
